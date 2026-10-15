@@ -1,0 +1,44 @@
+{
+  "name": "pi-auto-tab-name",
+  "version": "0.1.0",
+  "description": "Name your Herdr tab after the pi session: its session name, or the first prompt, without overwriting tabs you named yourself",
+  "type": "module",
+  "license": "MIT",
+  "author": "wayne930242",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wayne930242/pi-auto-tab-name.git"
+  },
+  "homepage": "https://github.com/wayne930242/pi-auto-tab-name#readme",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-coding-agent",
+    "extension",
+    "herdr",
+    "tab",
+    "session-name"
+  ],
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "node --test tests/*.test.ts"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "1.2.0",
+    "@types/node": "26.6.5",
+    "typescript": "7.0.2"
+  }
+}
