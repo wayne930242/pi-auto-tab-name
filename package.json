@@ -1,7 +1,7 @@
 {
   "name": "pi-auto-tab-name",
-  "version": "0.1.0",
-  "description": "Name your Herdr tab after the pi session: its session name, or the first prompt, without overwriting tabs you named yourself",
+  "version": "0.2.0",
+  "description": "Name your Herdr tab after the pi session: its name, a small-model title that follows compactions, or the first prompt, without overwriting tabs you named",
   "type": "module",
   "license": "MIT",
   "author": "wayne930242",
